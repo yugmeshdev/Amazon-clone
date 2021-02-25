@@ -40,6 +40,11 @@ function App() {
             <Header />
             <Checkout />
           </Route>
+
+          <Route path="/payment">
+            <Header />
+            <Payment />
+          </Route>
           <Route path="/">
             <Header />
             <Home />
